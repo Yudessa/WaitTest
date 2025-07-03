@@ -25,7 +25,7 @@ public class WaitTest {
 
         driver = new FirefoxDriver(options);
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
     }
 
     @AfterEach
